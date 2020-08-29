@@ -3,7 +3,8 @@ import React from 'react';
 function Main() {
     return (
         <div className="App-main">
-            Apartments the stones MAIN
+            <h2> Coming <br/> Soon </h2>
+
         </div>
     )
 }

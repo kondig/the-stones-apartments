@@ -12,8 +12,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .tbd {
-    animation: App-logo-spin infinite 20s linear;
+  .pts-logo {
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -38,6 +38,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-snap-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 .App-footer {
   background-color: #000000;
@@ -45,10 +46,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-snap-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-link {
@@ -78,11 +80,14 @@
 .faicon {
   display:block;
   color:#000000;
-  margin: 10px 10px;
-
+  margin: 10px 30px;
   overflow:hidden;
   text-decoration:none;
   font-size:3rem;
+}
+.fablack {
+    color:#ffffff;
+    font-size:5rem;
 }
 
 .socialmedia {
@@ -92,4 +97,21 @@
 
 .link {
     text-decoration:none;
+}
+
+.pts-logo {
+    height: 15vmin;
+    pointer-events: none;
+
+}
+.pts-container {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.name-address {
+    font-size: 1rem;
+    text-align:left;
+    line-height:2rem;
 }
