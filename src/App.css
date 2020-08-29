@@ -129,7 +129,7 @@
     align-items: center;
     justify-content: center;
 }
-.p-m {
+.sm-header {
     margin-bottom: 60px;
     justify-content: flex-end;
     width:100%;
@@ -170,9 +170,7 @@
 .stone-apt {
     height: 30vmin;
 }
-.ap-item {
 
-}
 
 @media (max-width:600px) {
     .App-header,
@@ -198,8 +196,10 @@
     }
     .socialmedia { margin: 20px 0px; }
     .socialmedia > div { flex: 0 50%; }
+    .name-address { flex: 0 90%; }
     .sm-item { margin: 10px 0px; }
     .text { padding: 5px 10px; }
     .text { font-size:0.9rem; }
     .fablack { font-size:3rem; }
+    .sm-header { justify-content: center; }
 }
