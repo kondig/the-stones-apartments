@@ -1,6 +1,6 @@
 import React from 'react';
-import emery from '../images/emery-rock.jpg';
-import lime from '../images/limestone-rock.jpg';
+import emery from '../images/emerystone-logo.png';
+import lime from '../images/limestone-logo.png';
 import Tooltip from '@material-ui/core/Tooltip';
 import {Apartment} from './stone.js'
 
