@@ -121,12 +121,25 @@
 }
 
 @media (max-width:600px) {
+    .App-header,
+    .App-footer {
+        justify-content:center;
+    }
     .name-address {
         font-size: 0.9rem;
-        padding: 30px 15px;
+        padding: 20px 15px;
         text-align:center;
     }
     .row {
         justify-content: center;
+    }
+    .socialmedia {
+        margin: 20px 0px;
+    }
+    .socialmedia > div {
+        flex: 0 50%;
+    }
+    .sm-item {
+        margin: 10px 0px;
     }
 }
