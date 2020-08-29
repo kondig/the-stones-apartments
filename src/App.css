@@ -25,7 +25,8 @@
   align-items:center;
   justify-content:space-between;
   color: white;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
+  scroll-snap-destination: 100px 0%;
   background-image: url('./images/bg-white-min.jpg');
   background-position: center center;
   background-attachment: fixed;
@@ -41,7 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-snap-align: center;
@@ -163,8 +164,8 @@
     padding: 20px 10px;
 }
 .text {
-    padding:30px;
-    font-size:1.5rem;
+    padding:20px;
+    font-size:1.4rem;
 }
 .stone-apt {
     height: 30vmin;
@@ -189,19 +190,16 @@
         flex-wrap:wrap;
         justify-content: center;
     }
-    .heading {
-        font-size:3rem;
+    .heading { font-size:3rem; }
+    .subheading { font-size:1.5rem; }
+    .ats-sketch {
+        width: 130px;
+        padding:5px 20px;
     }
-    .socialmedia {
-        margin: 20px 0px;
-    }
-    .socialmedia > div {
-        flex: 0 50%;
-    }
-    .sm-item {
-        margin: 10px 0px;
-    }
-    .text {
-        font-size:0.9rem;
-    }
+    .socialmedia { margin: 20px 0px; }
+    .socialmedia > div { flex: 0 50%; }
+    .sm-item { margin: 10px 0px; }
+    .text { padding: 5px 10px; }
+    .text { font-size:0.9rem; }
+    .fablack { font-size:3rem; }
 }

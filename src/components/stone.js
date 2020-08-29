@@ -18,18 +18,23 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 500,
-    width: 280,
+    width: 250,
     borderBottomRightRadius:0,
     borderBottomLeftRadius:0,
     backgroundColor: '#000000',
     fontFamily: 'Open Sans, sans-serif',
     [theme.breakpoints.down('sm')]: {
       width: 170,
+      display:'flex',
+      flexDirection: 'column',
+      justifyContent:'center',
+      alignItems:'center',
     },
   },
   media: {
-
-
+      [theme.breakpoints.down('sm')]: {
+        width: 120
+      },
   },
   content: {
       fontFamily: 'Open Sans, sans-serif',
