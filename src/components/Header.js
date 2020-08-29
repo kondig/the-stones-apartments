@@ -1,6 +1,4 @@
 import React from 'react';
-// import reactlogo from '../logo.svg';
-import logo from '../images/ats-logo.png';
 import sketch from '../images/ats-sketch.png';
 import Tooltip from '@material-ui/core/Tooltip';
 
@@ -24,8 +22,6 @@ function Header() {
                 </Tooltip>
               </a>
           </div>
-          {/* <img src={logo} className="App-logo" alt="logo" />*/}
-
         </header>
     )
 }

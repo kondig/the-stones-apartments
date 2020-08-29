@@ -5,7 +5,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 function Footer() {
     return (
         <div className="App-footer">
-            <h2>Contact</h2>
+            <h2 className="subheading">Contact</h2>
             <div className="socialmedia">
                 <div className="sm-item">
                     <a href="https://www.facebook.com/apartmentsthestones" target="_blank" rel="noopener noreferrer" className="link" >

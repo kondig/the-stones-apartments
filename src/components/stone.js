@@ -18,12 +18,13 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 500,
+    width: 280,
     borderBottomRightRadius:0,
     borderBottomLeftRadius:0,
     backgroundColor: '#000000',
     fontFamily: 'Open Sans, sans-serif',
     [theme.breakpoints.down('sm')]: {
-      width: 170
+      width: 170,
     },
   },
   media: {
@@ -52,7 +53,7 @@ function Stone(props) {
               image={props.imgfile}
               title={props.imgtitle}
               width='100%'
-              height='200'
+              height='100%'
               component='img'
             />
         </a>
