@@ -9,10 +9,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAirbnb } from '@fortawesome/free-brands-svg-icons'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAirbnb } from '@fortawesome/free-brands-svg-icons';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -45,6 +43,10 @@ const useStyles = makeStyles((theme) => ({
       justifyContent:'center',
       backgroundColor: '#000000'
   },
+  container: {
+    flexBasis: '100%',
+    backgroundColor:'#ffffff'
+  },
 }));
 
 function Stone(props) {
@@ -52,6 +54,7 @@ function Stone(props) {
 
   return (
     <Card className={classes.root}>
+
         <a href={props.link} target="_blank" rel="noopener noreferrer" className="link" >
             <CardMedia
               className={classes.media}
@@ -63,19 +66,21 @@ function Stone(props) {
             />
         </a>
 
-      <CardHeader className={classes.content}
-        title={props.title}
-        subheader={props.subheader}
-      />
+
+          <CardHeader className={classes.content}
+            title={props.title}
+            subheader={props.subheader}
+          />
+
       {/* <CardContent className={classes.content}>
         <Typography variant="body2" color="textSecondary" component="p">
           {props.descMain}
         </Typography>
       </CardContent>*/}
       <CardActions disableSpacing className={classes.cardactions}>
-          <a href={props.link} target="_blank" rel="noopener noreferrer" className="link" >
-            <FontAwesomeIcon icon={faAirbnb} color="#ffffff" size="2x" />
-          </a>
+              <a href={props.link} target="_blank" rel="noopener noreferrer" className="link" >
+                <FontAwesomeIcon icon={faAirbnb} color="#ffffff" size="2x" />
+              </a>
       </CardActions>
     </Card>
   );
