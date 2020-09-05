@@ -3,9 +3,6 @@ import emery from '../images/emerystone-logo.png';
 import lime from '../images/limestone-logo.png';
 import {Apartment} from './stone.js'
 
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
-
 function Main() {
     return (
         <div className="App-main">

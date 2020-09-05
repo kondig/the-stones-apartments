@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
+// import CardContent from '@material-ui/core/CardContent';
+// import IconButton from '@material-ui/core/IconButton';
+// import Typography from '@material-ui/core/Typography';
+// import { red } from '@material-ui/core/colors';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAirbnb } from '@fortawesome/free-brands-svg-icons';
@@ -87,9 +87,6 @@ function Stone(props) {
 }
 
 class Apartment extends React.Component {
-  constructor(props) {
-      super(props)
-  }
 	render() {
     const { imgfile, imgtitle, title, descMain, link, subheader } = this.props;
 		return (
