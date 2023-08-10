@@ -47,6 +47,14 @@
   color: white;
   scroll-snap-align: center;
   font-family: 'Open Sans', sans-serif;
+  /*background-image: url('./images/bg2.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
 }
 .App-footer {
   background-color: #000000;
@@ -59,6 +67,14 @@
   color: white;
   scroll-snap-align: center;
   font-family: 'Open Sans', sans-serif;
+  background-image: url('./images/bg3.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .App-link {
@@ -97,7 +113,7 @@
 }
 .subheading {
     font-size:2rem;
-    color:#ffffff;
+    color:#000000;
     font-family: 'Open Sans', sans-serif;
     margin:0;
 }
@@ -106,7 +122,7 @@
 }
 
 .ats-sketch {
-    width: 200px;
+    width: 250px;
     padding:10px 20px;
 }
 
@@ -159,9 +175,11 @@
 
 .name-address {
     font-size: 1rem;
+    font-weight: 700;
     text-align:left;
     line-height:2rem;
     padding: 20px 10px;
+    color:#000000;
 }
 .text {
     padding:20px;
@@ -191,7 +209,7 @@
     .heading { font-size:3rem; }
     .subheading { font-size:1.5rem; }
     .ats-sketch {
-        width: 130px;
+        width: 140px;
         padding:5px 20px;
     }
     .socialmedia { margin: 20px 0px; }
