@@ -1,6 +1,6 @@
 import React from 'react';
 import pts from '../images/pts-logo.png';
-import Tooltip from '@material-ui/core/Tooltip';
+import Tooltip from '@mui/material/Tooltip';
 
 function Footer() {
     return (
