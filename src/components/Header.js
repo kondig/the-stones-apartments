@@ -1,7 +1,7 @@
 import React from 'react';
-import sketch from '../images/ats-sketch.png';
 import logo from '../images/ats-logo.png';
 import Tooltip from '@mui/material/Tooltip';
+// import sketch from '../images/ats-sketch.png';
 
 
 function Header() {

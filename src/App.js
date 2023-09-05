@@ -4,16 +4,21 @@ import {Header} from './components/Header';
 import {Main} from './components/Main';
 import {Footer} from './components/Footer';
 
-import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
+import { ThemeProvider, createMuiTheme, } from '@mui/material/styles';
+import { green } from '@mui/material/colors';
 
-const theme = createMuiTheme();
-
-const useStyles = makeStyles((theme) => {
-  root: {
-    // some CSS that accesses the theme
-  }
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#2346A0',
+      dark: '#155475'
+    },
+    secondary: {
+      main: '#7ab340',
+      dark: green[900]
+    },
+  },
 });
-
 
 function App() {
   return (

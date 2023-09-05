@@ -1,6 +1,7 @@
 import React from 'react';
 import pts from '../images/pts-logo.png';
 import Tooltip from '@mui/material/Tooltip';
+import Link from '@mui/material/Link';
 
 function Footer() {
     return (
@@ -38,11 +39,13 @@ function Footer() {
             </div>
             <div className="pts-container">
                 <div className="name-address">
-                    Konstantinos Giampouras <br/>
-                    Chemical Engineer N.T.U.A. <br/>
+                    Konstantinos Giampouras<br/>
+                    Chemical Engineer N.T.U.A.<br/>
                     Old Market Str, Chora Naxos, 84300, Greece
                 </div>
-                <img src={pts} className="pts-logo" alt="Projects: The Stones" />
+                <Link href="https://projectsthestones.com/" target="_blank" rel="noreferrer">
+                  <img src={pts} className="pts-logo" alt="Projects: The Stones" />
+                </Link>               
             </div>
         </div>
     )

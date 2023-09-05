@@ -3,10 +3,14 @@ import emery from '../images/emerystone-logo.png';
 import lime from '../images/limestone-logo.png';
 import {Apartment} from './stone.js'
 
+import Box from '@mui/material/Box';
+
+
 function Main() {
     return (
-        <div className="App-main">
-            <p className="text">
+        <Box className="App-main" sx={{ position: 'relative' }}>
+            <div className="layer"></div>
+            <p className="text-main">
                 Apartments The Stones is a hospitality service.
                 The contribution in creating unforgettable memories in your vacation time.
                 <br/><br/>
@@ -22,7 +26,7 @@ function Main() {
                     <Apartment title='Limestone' subheader='Chora, Naxos' imgfile={lime} imgtitle='Limestone' link='https://www.airbnb.com/rooms/23591413?guests=1&adults=1' />
                 </div>
             </div>
-        </div>
+        </Box>
     )
 }
 
