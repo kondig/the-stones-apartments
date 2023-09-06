@@ -200,6 +200,7 @@
 .stone-apt {
     height: 30vmin;
 }
+.brHandler { display: none; }
 
 
 @media (max-width:600px) {
@@ -208,22 +209,11 @@
     .App-main {
         justify-content:center;
     }
-    .name-address {
-        font-size: 0.9rem;
-        padding: 20px 15px;
-        text-align:center;
-    }
-    .row {
-        align-items:center;
-        flex-wrap:wrap;
-        justify-content: center;
-    }
+    .name-address { font-size: 0.9rem; padding: 20px 15px; text-align:center; }
+    .row { align-items:center; flex-wrap:wrap; justify-content: center; }
     .heading { font-size:3rem; }
     .subheading { font-size:1.5rem; }
-    .ats-sketch {
-        width: 140px;
-        padding:5px 20px;
-    }
+    .ats-sketch { width: 140px; padding:5px 20px; }
     .socialmedia { margin: 20px 0px; }
     .socialmedia > div { flex: 0 50%; }
     .name-address { flex: 0 90%; }
@@ -232,4 +222,6 @@
     .text { font-size:0.9rem; }
     .fablack { font-size:3rem; }
     .sm-header { justify-content: center; }
+    .text-main { padding:0px; font-size:1rem; width: 90%; }
+    .brHandler { display: block; }
 }

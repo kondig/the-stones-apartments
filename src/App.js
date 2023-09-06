@@ -4,10 +4,10 @@ import {Header} from './components/Header';
 import {Main} from './components/Main';
 import {Footer} from './components/Footer';
 
-import { ThemeProvider, createMuiTheme, } from '@mui/material/styles';
+import { ThemeProvider, createTheme, } from '@mui/material/styles';
 import { green } from '@mui/material/colors';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       main: '#2346A0',
